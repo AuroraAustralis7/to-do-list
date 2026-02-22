@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <h1 id="title">To-do list!</h1>
+    <div>
+      <ul>
+        <li>Item One!</li>
+        <li>Item Two!</li>
+      </ul>
+    </div>
+    <form id="add-objective">
+      <div>
+        <label for="description" id="description-input">Description</label>
+        <input
+          name="description"
+          id="description-input"
+          type="text"
+          maxlength="40"
+          required
+        />
+      </div>
+      <div>
+        <label for="due" id="due-input">Due Date</label>
+        <input
+          name="due"
+          id="time-input"
+          type="text"
+          pattern
+          maxlength="40"
+          required
+        />
+      </div>
+    </form>
+  </body>
+</html>
